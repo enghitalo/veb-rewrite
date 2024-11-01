@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: text/event-stream
+Cache-Control: no-cache
+Connection: keep-alive
+
+data: Event 1 data
+id: 1
+retry: 10000
+
+data: Event 2 data
+id: 2
+retry: 10000
+
+data: Event 3 data
+id: 3
+retry: 10000

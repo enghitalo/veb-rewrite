@@ -1,0 +1,6 @@
+POST /api/data HTTP/1.1
+Host: www.example.com
+Content-Type: application/xml
+Content-Length: 61
+
+<user><name>John</name><email>john@example.com</email></user>

@@ -1,0 +1,6 @@
+POST /upload-pdf HTTP/1.1
+Host: www.example.com
+Content-Type: application/pdf
+Content-Length: 5120
+
+[BINARY PDF DATA HERE]

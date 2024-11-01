@@ -1,0 +1,5 @@
+:status: 200
+content-type: application/json
+content-length: 44
+
+{"message":"Success","data":{"name":"John","email":"john@example.com"}}

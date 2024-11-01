@@ -1,0 +1,15 @@
+POST /upload HTTP/1.1
+Host: www.example.com
+Content-Type: multipart/form-data; boundary=---011000010111000001101001
+Content-Length: 123
+
+-----011000010111000001101001
+Content-Disposition: form-data; name="name"
+
+John
+-----011000010111000001101001
+Content-Disposition: form-data; name="file"; filename="file.txt"
+Content-Type: text/plain
+
+[Content of file.txt]
+-----011000010111000001101001--

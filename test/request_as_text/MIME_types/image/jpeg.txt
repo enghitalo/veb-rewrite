@@ -1,0 +1,6 @@
+POST /upload-image HTTP/1.1
+Host: www.example.com
+Content-Type: image/jpeg
+Content-Length: 2048
+
+[BINARY IMAGE DATA HERE]
