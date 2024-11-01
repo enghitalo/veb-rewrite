@@ -8,4 +8,3 @@ If this becomes a library one day, maybe I'll call it vweb
 - [ ] allow direcly read request as buffer
 - [ ] allow direcly write and send response as buffer
 - [ ] focus on Linux performance
-- [ ] remove `form map[string]string` from Context
